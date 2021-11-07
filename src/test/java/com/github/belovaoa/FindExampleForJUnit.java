@@ -6,11 +6,11 @@ import static com.codeborne.selenide.Condition.text;
 import static com.codeborne.selenide.Selectors.byText;
 import static com.codeborne.selenide.Selenide.*;
 
-public class findExampleForJUnit {
+public class FindExampleForJUnit {
 
 
     @Test
-    void findExample() {
+    void findExampleOnPageSoftAssertions() {
 
         // Open page selenide in github
         open("https://github.com/selenide/selenide");
